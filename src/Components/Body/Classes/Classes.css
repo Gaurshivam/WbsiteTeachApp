@@ -1,0 +1,138 @@
+.MainClasses{
+    margin-top: 1rem;
+}
+
+.ClassNav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.ClassNavLeft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blue;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.ClassNavLeft > h2{
+    font-weight: bold;
+}
+
+.ClassNavLeft > a{
+    margin-left: 1rem;
+    margin-top: .1rem;
+    color: brown;
+    font-weight: bold;
+}
+
+
+.ClassNavRight{
+    margin: 1rem;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.ClassNavRight > h6{
+    margin-right: 1rem;
+    color: blue;
+    margin-top: .5rem;
+}
+
+.pricebtnOne{
+    background-color: blue;
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    color: white;
+    padding: .4rem;
+    width: 70px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+} 
+
+.pricebtnTwo{
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding: .4rem;
+    width: 70px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+/* .classsub{
+    color: blue;
+    text-align: left;
+    margin-left: 175px;
+    margin-top: -20px;
+} */
+
+.ClassesComp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+
+.ClassCompStyle{
+    width: 280px;
+    height: 400px;
+    margin: 1rem;
+    background-color: rgb(176, 237, 237);
+    border-radius: 10px;
+}
+
+.checked{
+    color: yellow;
+}
+
+.ClassImage{
+    width: 280px;
+    height: 130px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ClassH5{
+    margin-left: -140px;
+    margin-top: 1rem;
+    color: blue;
+}
+
+.ClassBy{
+    display: flex;
+    margin-left: 1.4rem;
+}
+
+.ClassPara{
+    text-align: left;
+    padding: .4rem;
+    margin-left: 1rem;
+    color: blue;
+}
+
+.ClassFooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    color: white;
+    height: 46px;
+    padding-top: .6rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+@media (max-width:"768px") {
+    .ClassNav{
+        text-align: center;
+    }
+    
+}

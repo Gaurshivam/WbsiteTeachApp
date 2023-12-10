@@ -1,0 +1,44 @@
+.TeacherContainer{
+    margin-top: 3rem;
+}
+
+.TeachersHeading > h2{
+    color: blue;
+    text-align: left;
+    margin-left: 90px;
+    font-weight: bold;
+}
+
+.TeachersData{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.TeachBtn{
+    margin: 2rem;
+}
+
+.TeachersComp{
+    height: 250px;
+    height: 270px;
+    margin: 2rem;
+}
+
+.TeachersComp:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+.TeachersImage{
+    width: 250px;
+    height: 200px;
+    border-top-left-radius: 60%;
+}
+
+.TeachBooton{
+    background-color: aqua;
+    padding-top: .6rem;
+    padding-bottom: .2rem;
+}

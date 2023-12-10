@@ -1,0 +1,77 @@
+.MainDrop {
+  width: 40vw;
+}
+
+.DropContent {
+  float: left;
+  width: 50%;
+}
+
+.DropImage {
+  float: right;
+  width: 50%;
+}
+
+.DropImage {
+  width: 230px;
+  height: 250px;
+}
+#Logo {
+  color: rgb(10, 10, 76);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#Teach {
+  color: rgb(10, 10, 76);
+  font-weight: bold;
+}
+
+#CateNav {
+  color: rgb(10, 10, 76);
+  font-weight: bold;
+}
+
+#NavBtn1 {
+  width: 100px;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#NavBtn2 {
+  width: 100px;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: rgb(24, 24, 87);
+  color: white;
+  font-weight: bold;
+}
+
+
+/* media Query */
+@media (max-width: 1000px) {
+  .NavMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .NavMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ClassNavLeft{
+    text-align: center;
+    margin-left: 4rem;
+  }
+  .ClassNavRight{
+    text-align: center;
+    margin-left: 7rem;
+  }
+}

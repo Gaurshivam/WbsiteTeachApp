@@ -1,0 +1,53 @@
+.Categories{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.Categories > h2{
+    text-align: left;
+    margin-left: 90px;
+    color: blue;
+    font-weight: bold;
+}
+
+.CategoryImage{
+margin: 2rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 40px;
+   margin-top: 3rem;
+}
+
+.ImageConatiner{
+    margin-top: 1rem;
+}
+
+.ImageConatiner:hover {
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+.MainImaged{
+    width: 290px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    /* margin: 1rem; */
+}
+
+.CategoryH6{
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.CategoryH6:hover{
+    color: red;
+}
+
+.hrTag{
+    color: black;
+    font-weight: bold;
+
+}

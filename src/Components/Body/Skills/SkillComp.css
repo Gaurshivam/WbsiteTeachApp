@@ -1,0 +1,49 @@
+.SkillContainer{
+    margin-top: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.StartSkill{
+    background-color: coral;
+    width: 90%;
+    height: 290px;
+    margin: auto;
+    padding: 1.8rem;
+    color: white;
+    border-radius: 100px;
+}
+
+.StartSkill > h2{
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#SkillBtn{
+    background-color: antiquewhite;
+    border: none;
+    color: coral;
+    border-radius: 1rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    width: 180px;
+    font-weight: bold;
+    height: 40px;
+}
+
+#InputSkill{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 9px;
+    font-size: 16px;
+    background-color: coral;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .StartSkill > h2{
+        margin-top: -1rem;
+    }
+}

@@ -1,0 +1,40 @@
+.ReasonContainer{
+    margin-top: 4rem;
+}
+.ReasonHeading{
+    margin-top: 2rem;
+}
+
+
+.ReasonHeading > h2{
+    color: blue;
+    text-align: left;
+    margin-left: 90px;
+    font-weight: bold;
+}
+
+.ResonPartTop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+}
+
+.ReasonComp{
+     width: 280px;
+     font-weight: bold;
+     color: darkblue;
+     height: 200px;
+     margin: 2rem;
+     text-align: left;
+
+}
+
+.ReasonComp > img {
+    height: 120px;
+    width: 150px;
+    border-radius: 150px;
+    margin: 1rem;
+}
